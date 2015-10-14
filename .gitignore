@@ -1,4 +1,7 @@
 /nbproject/private
+
+/public/img/icon/
+/public/img/screenshot/
 /vendor
 /node_modules
 Homestead.yaml

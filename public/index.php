@@ -7,6 +7,10 @@
  * @author   Taylor Otwell <taylorotwell@gmail.com>
  */
 
+if (preg_match('#^/(js|css|img)/#', $_SERVER["REQUEST_URI"])) {
+    return false;    // serve the requested resource as-is.
+}
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
