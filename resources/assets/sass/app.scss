@@ -1,2 +1,10 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import 'navbar';
 
+@import 'section';
+
+@import 'app-gallery';
+@import 'screenshot-gallery';
+@import 'review-gallery';
+
+@import "_home-page.scss";
+@import "_app-page.scss";

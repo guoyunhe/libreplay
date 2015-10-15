@@ -1,0 +1,41 @@
+.review {
+    width: 500px;
+    margin-right: 80px;
+}
+
+.review .header {
+    display: flex;
+}
+
+.review .icon, .review .avatar {
+    height: 64px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.review .avatar {
+    display: block;
+}
+
+.review .text {
+    flex: 1 1 auto;
+}
+
+.review .username {
+    display: block;
+}
+
+.review .rate {
+    display: block;
+    color: #FFEB3B;
+}
+
+.review .date {
+    display: block;
+}
+
+@media (max-width: 400px) {
+    .review {
+        width: 300px;
+    }
+}

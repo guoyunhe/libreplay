@@ -1,0 +1,60 @@
+.gallery a {
+    display: block;
+    position: relative;
+}
+
+.gallery .float {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 4px;
+    opacity: 0;
+    background: rgba(0,0,0,0.5);
+    transition: 1s;
+}
+
+.gallery .is-selected .float {
+    opacity: 1;
+}
+
+.gallery img.icon {
+    display: block;
+    height: 64px;
+    width: auto;
+}
+
+.gallery .text {
+    display: block;
+    height: 64px;
+    overflow: hidden;
+    color: white;
+}
+
+.gallery .name {
+    display: block;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    height: 32px;
+}
+
+.gallery .desc {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+
+.gallery img.screenshot {
+    display: block;
+    height: 400px;
+    width: auto;
+}
+
+@media (max-width: 400px) {
+    .gallery img.screenshot {
+        height: 200px;
+    }
+}
