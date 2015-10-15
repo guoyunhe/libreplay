@@ -1,0 +1,24 @@
+#app-main {
+    margin: 50px 0;
+    
+    header {
+        display: flex;
+        
+        img.icon {
+            width: 256px;
+            min-width: 256px;
+            height: auto;
+            margin-right: 20px;
+        }
+        
+        .review-info {
+            line-height: 32px;
+            
+            .star-rate {
+                display: inline-block;
+                margin-bottom: -4px;
+                margin-right: 20px;
+            }
+        }
+    }
+}

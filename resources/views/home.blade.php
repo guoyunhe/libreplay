@@ -2,8 +2,6 @@
 
 @section('title', 'LibreApps')
 
-@section('body_class', 'home')
-
 @section('main')
 
 @include('parts.headings.more', ['heading' => 'Updated', 'more_url' => '/update'])

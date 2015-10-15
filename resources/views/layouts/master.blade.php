@@ -10,14 +10,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/ripples.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/roboto.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.1/flickity.min.css">
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="/css/main.css">
         <link rel="icon" type="image/svg+xml" href="/img/logo/libreapps/256.svg">
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.1/flickity.pkgd.min.js"></script>
-        <script type="text/javascript" src="/js/app.js"></script>
+        <script type="text/javascript" src="/js/main.js"></script>
         <script>
             $(function () {
                 $.material.init(); // Initialize Bootstrap Material effects
@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="javascript:void(0)">
+                <a class="navbar-brand" href="/">
                     <img class="logo" src="/img/logo/libreapps/256.svg">
                     LibreApps
                 </a>
