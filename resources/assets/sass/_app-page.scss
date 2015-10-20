@@ -4,20 +4,35 @@
     header {
         display: flex;
         
-        img.icon {
+        .app-icon {
             width: 256px;
             min-width: 256px;
-            height: auto;
             margin-right: 20px;
+
+            img {
+                display: block;
+                width: 256px;
+                height: auto;
+            }
         }
         
-        .review-info {
-            line-height: 32px;
+        .app-info {
+            display: flex;
+            flex-direction: column;
             
-            .star-rate {
-                display: inline-block;
-                margin-bottom: -4px;
-                margin-right: 20px;
+            .review-info {
+                line-height: 32px;
+
+                .star-rate {
+                    display: inline-block;
+                    margin-bottom: -4px;
+                    margin-right: 20px;
+                }
+            }
+            
+            .brief-desc {
+                flex: 1;
+                margin: 1em 0;
             }
         }
     }
