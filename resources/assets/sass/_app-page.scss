@@ -36,4 +36,30 @@
             }
         }
     }
+    
+    .screenshots {
+        margin-bottom: 30px; // space for nav dots
+        
+        .screenshot-item {
+            position: relative;
+            height: 400px;
+            margin-right: 20px;
+            overflow: hidden;
+            
+            img {
+                display: block;
+                height: 400px;
+                width: auto;
+            }
+            
+            div.text {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                padding: 10px;
+                color: white;
+                background: rgba(0,0,0,0.3);
+            }
+        }
+    }
 }

@@ -21,6 +21,13 @@ $test_data['apps'] = [
             'web-browser' => 'Web Browser',
         ],
         'install_uri' => 'install:firefox&debian=iceweasel&opensuse=MozillaFirefox',
+        'screenshots' => [
+            '/img/screenshot/gimp.png',
+            '/img/screenshot/blender.jpg',
+            '/img/screenshot/calibre.png',
+            '/img/screenshot/eclipse.png',
+            '/img/screenshot/inkscape.png',
+        ],
     ],
     'vlc' => [
         'package' => 'vlc',
@@ -42,10 +49,10 @@ $test_data['apps'] = [
 ];
 
 $test_data['screenshots'] = [
-    '/img/screenshot/blender.png',
+    '/img/screenshot/blender.jpg',
     '/img/screenshot/calibre.png',
     '/img/screenshot/eclipse.png',
-    '/img/screenshot/freecad.png',
+    '/img/screenshot/freecad.jpg',
     '/img/screenshot/gimp.png',
     '/img/screenshot/inkscape.png',
     '/img/screenshot/libreoffice.png',

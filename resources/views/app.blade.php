@@ -29,6 +29,32 @@
                 </div>
             </div>
         </header>
+
+        <h2 class="heading clearfix">
+            <span class="heading-text">
+                Screenshots
+            </span>
+            <a class="btn btn-info btn-sm pull-right" href="screenshot">View More</a>
+            <a class="btn btn-info btn-sm pull-right" href="screenshot">Upload</a>
+        </h2>
+        <div class="screenshots js-flickity"
+             data-flickity-options='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true}'>
+            @foreach($screenshots as $screenshot)
+                <div class="screenshot-item">
+                    <img src="{{$screenshot}}"/>
+                    <div class="text">
+                        Image retouching and editing, free-form drawing, resizing, cropping and more...
+                    </div>
+                </div>
+            @endforeach
+        </div>
+
+        <h2 class="heading clearfix">
+            <span class="heading-text">
+                Reviews
+            </span>
+            <a class="btn btn-info btn-sm pull-right" href="screenshot">View More</a>
+        </h2>
     </div>
 </div>
 
