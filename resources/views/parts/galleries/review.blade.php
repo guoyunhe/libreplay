@@ -29,7 +29,7 @@
                             <i class="mdi-action-thumbs-up-down"></i> {{ $review['vote'] }}
                         </span>
                     </p>
-                    <p>{{ $review['text'] }}</p>
+                    <p>{{ $review['content'] }}</p>
                 </div>
             </div>
         </div>

@@ -6,4 +6,10 @@ $(function () {
         var starElement = $(this).find('i');
         valueElement.width(starElement.width() * value);
     });
+    
+    $('.raty').raty({
+        cancel: false,
+        half: false,
+        starType: 'i'
+    });
 });

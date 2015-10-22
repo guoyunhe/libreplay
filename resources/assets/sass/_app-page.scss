@@ -76,4 +76,33 @@
             }
         }
     }
+    
+    #your-review {
+        .cc-link {
+            color: inherit;
+            float: right;
+            font-size: 42px;
+        }
+    }
+    
+    #review-list {
+        .review-item {
+            .review-meta {
+                text-align: right;
+                
+                i {
+                    font-size: 18px;
+                    color: rgba(0,0,0,0.5);
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    #load-reviews-btn {
+        max-width: 300px;
+        margin: auto;
+        display: block;
+    }
 }
