@@ -5,6 +5,22 @@
 @section('main')
 <div id="app-main">
     <div class="container">
+        <div class="app-action">
+            <div class="btn-group">
+                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-lg fa-language"></i> English
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0)">Franch | Français</a></li>
+                    <li><a href="javascript:void(0)">German | Deutsch</a></li>
+                    <li><a href="javascript:void(0)">Simple Chinese | 简体中文</a></li>
+                    <li class="divider"></li>
+                    <li><a href="javascript:void(0)">Translate New Language</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" title="Edit application data and translate"
+               class="btn btn-warning btn-fab btn-raised mdi-editor-mode-edit"></a>
+        </div>
         <header class="app-header">
             <div class="app-icon"><img class="icon" src="{{ $icon }}"></div>
             <div class="app-info">
@@ -34,8 +50,8 @@
             <span class="heading-text">
                 Screenshots
             </span>
-            <a class="btn btn-info btn-sm pull-right" href="screenshot">View More</a>
-            <a class="btn btn-info btn-sm pull-right" href="screenshot">Upload</a>
+            <a class="btn btn-info btn-sm pull-right" href="/app/{{$package}}/review">More</a>
+            <a class="btn btn-info btn-sm pull-right">Upload</a>
         </h2>
         <div class="screenshots js-flickity"
              data-flickity-options='{ "imagesLoaded": true, "percentPosition": false, "wrapAround": true}'>
@@ -53,9 +69,9 @@
             <span class="heading-text">
                 Reviews
             </span>
-            <a class="btn btn-info btn-sm pull-right" href="screenshot">View More</a>
+            <a class="btn btn-info btn-sm pull-right" href="/app/{{$package}}/review">More</a>
         </h2>
-    </div>
-</div>
+    </div><!-- .container -->
+</div><!-- #app-main -->
 
 @endsection

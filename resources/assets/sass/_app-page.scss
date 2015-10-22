@@ -1,6 +1,20 @@
 #app-main {
     margin: 50px 0;
     
+    .app-action {
+        text-align: right;
+        
+        .dropdown {
+            display: inline-block;
+        }
+        
+        .mdi-editor-mode-edit {
+            position: fixed;
+            right: 20px;
+            bottom: 30px;
+        }
+    }
+    
     header {
         display: flex;
         
