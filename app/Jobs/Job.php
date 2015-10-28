@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Jobs;
+namespace LibrePlay\Jobs;
 
 use Illuminate\Bus\Queueable;
 

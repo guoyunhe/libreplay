@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace LibrePlay\Events;
 
 abstract class Event
 {

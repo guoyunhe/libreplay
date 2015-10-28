@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: LibrePlay
+        psr4_prefix: LibrePlay
         src_path: app

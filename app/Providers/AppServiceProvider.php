@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace LibrePlay\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

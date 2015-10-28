@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace LibrePlay\Http\Controllers\Auth;
 
-use App\User;
+use LibrePlay\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use LibrePlay\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 
